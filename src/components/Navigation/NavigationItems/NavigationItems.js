@@ -3,7 +3,7 @@ import styles from './NavigationItems.module.css';
 import Navigationitem from '../NavigationItem/NavigationItem';
 const navigationitems = () => {
   return(
-  <ul className={styles.NavigationItems}>
+  <ul className={styles.Navigationitems}>
       <Navigationitem link="/" active>
           Burger Builder
       </Navigationitem>
